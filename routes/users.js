@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
   else {
     vOne = vOne - vTwo
   }
-  res.send('Values are: ' + vOne + 'and ' + vTwo);
+  res.send('Values are: ' + vOne + ' and ' + vTwo);
 });
 
 module.exports = router;
